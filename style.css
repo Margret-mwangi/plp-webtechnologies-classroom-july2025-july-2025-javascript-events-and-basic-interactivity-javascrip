@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 20px;
+  color: black;
+}
+
+header, section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: darkgreen;
+}
+
+button {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: mediumseagreen;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: square;
+  color: darkslategray;
+}
