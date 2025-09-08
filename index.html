@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soap Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Our Soap Products</h1>
+  </header>
+
+  <section id="showerGel">
+    <h2>Shower Gel</h2>
+    <p>A refreshing and moisturizing shower gel for daily use.</p>
+    <button id="showerGelBtn">Show Ingredients</button>
+    <ul id="showerGelDetails" style="display:none;">
+      <li>Water</li>
+      <li>Sodium Laureth Sulfate</li>
+      <li>Glycerin</li>
+      <li>Fragrance</li>
+      <li>Aloe Vera Extract</li>
+    </ul>
+  </section>
+
+  <section id="allPurposeSoap">
+    <h2>All-Purpose Soap</h2>
+    <p>A versatile soap for hands, dishes, and surfaces.</p>
+    <button id="allPurposeBtn">Show Ingredients</button>
+    <ul id="allPurposeDetails" style="display:none;">
+      <li>Water</li>
+      <li>Sodium Palmate</li>
+      <li>Coconut Oil</li>
+      <li>Essential Oils</li>
+      <li>Sodium Chloride</li>
+    </ul>
+  </section>
+
+  <section id="contactFormSection">
+    <h2>Request More Information</h2>
+    <form id="infoForm" novalidate>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" />
+      <span class="error" id="nameError"></span>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" />
+      <span class="error" id="emailError"></span>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess" style="color: green;"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
